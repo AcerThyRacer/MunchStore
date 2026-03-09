@@ -3,7 +3,7 @@ package com.sugarmunch.app.effects.special
 import androidx.compose.ui.graphics.Color
 
 /**
- * 🎨 MORE SPECIAL EFFECTS — 50+ Additional Animations
+ * 🎨 MORE SPECIAL EFFECTS — 56 Additional Animations
  * Creative candy-themed and beyond visual effects expanding the catalog.
  */
 object MoreSpecialEffects {
