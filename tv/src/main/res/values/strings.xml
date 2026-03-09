@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SugarMunch TV</string>
+    <string name="browse_title">SugarMunch</string>
+    
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_effects">Effects</string>
+    <string name="nav_themes">Themes</string>
+    <string name="nav_settings">Settings</string>
+    
+    <!-- Actions -->
+    <string name="action_install">Install</string>
+    <string name="action_open">Open</string>
+    <string name="action_uninstall">Uninstall</string>
+    <string name="action_update">Update</string>
+    <string name="action_share">Share</string>
+    <string name="action_back">Back</string>
+    <string name="action_search">Search</string>
+    <string name="action_voice_search">Voice Search</string>
+    
+    <!-- Categories -->
+    <string name="category_featured">Featured</string>
+    <string name="category_popular">Popular</string>
+    <string name="category_new">New &amp; Updated</string>
+    <string name="category_games">Games</string>
+    <string name="category_productivity">Productivity</string>
+    <string name="category_media">Media</string>
+    <string name="category_tools">Tools</string>
+    
+    <!-- Effects -->
+    <string name="effects_title">Visual Effects</string>
+    <string name="effects_subtitle">Customize your experience</string>
+    <string name="effect_preset_none">None</string>
+    <string name="effect_preset_focus">Focus</string>
+    <string name="effect_preset_celebration">Celebration</string>
+    <string name="effect_preset_chill">Chill</string>
+    <string name="effect_preset_maximum">Maximum</string>
+    
+    <!-- Themes -->
+    <string name="themes_title">Themes</string>
+    <string name="themes_subtitle">Choose your candy experience</string>
+    <string name="theme_current">Current Theme</string>
+    <string name="theme_preview">Preview</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Search apps…</string>
+    <string name="search_voice_prompt">Say an app name</string>
+    <string name="search_no_results">No apps found</string>
+    <string name="search_try_different">Try a different search term</string>
+    <string name="search_popular">Popular Searches</string>
+    <string name="search_history">Recent Searches</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_general">General</string>
+    <string name="settings_downloads">Downloads</string>
+    <string name="settings_effects">Effects &amp; Appearance</string>
+    <string name="settings_security">Security</string>
+    <string name="settings_about">About</string>
+    
+    <!-- Error messages -->
+    <string name="error_network">Network error. Please check your connection.</string>
+    <string name="error_loading">Failed to load apps. Please try again.</string>
+    <string name="error_install">Failed to install app.</string>
+    
+    <!-- Content descriptions -->
+    <string name="desc_app_icon">App icon</string>
+    <string name="desc_navigate_back">Navigate back</string>
+    <string name="desc_clear_search">Clear search</string>
+    <string name="desc_voice_search">Voice search</string>
+    <string name="desc_more_options">More options</string>
+</resources>

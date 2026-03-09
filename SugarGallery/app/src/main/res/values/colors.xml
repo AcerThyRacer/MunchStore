@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SugarGallery - Candy-Themed Color Resources -->
+<resources>
+    <!-- ═════════════════════════════════════════════════════════════════
+         COTTON CANDY COLLECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <!-- Cotton Candy (Pink & Blue) -->
+    <color name="cotton_candy_primary">#FFFF69B4</color>
+    <color name="cotton_candy_accent">#FF00BFFF</color>
+    <color name="cotton_candy_background">#FFFFF0F5</color>
+    <color name="cotton_candy_surface">#FFFFE4E1</color>
+    <color name="cotton_candy_on_primary">#FFFFFFFF</color>
+    <color name="cotton_candy_on_surface">#FF1A1A1A</color>
+    
+    <!-- Pink Cotton Candy -->
+    <color name="pink_cotton_candy_primary">#FFFF1493</color>
+    <color name="pink_cotton_candy_accent">#FFFF69B4</color>
+    <color name="pink_cotton_candy_background">#FFFFF5F7</color>
+    <color name="pink_cotton_candy_surface">#FFFFE0E8</color>
+    <color name="pink_cotton_candy_on_primary">#FFFFFFFF</color>
+    <color name="pink_cotton_candy_on_surface">#FF1A1A1A</color>
+    
+    <!-- Blue Cotton Candy -->
+    <color name="blue_cotton_candy_primary">#FF00BFFF</color>
+    <color name="blue_cotton_candy_accent">#FF87CEEB</color>
+    <color name="blue_cotton_candy_background">#FFF0F8FF</color>
+    <color name="blue_cotton_candy_surface">#FFE0F2FF</color>
+    <color name="blue_cotton_candy_on_primary">#FFFFFFFF</color>
+    <color name="blue_cotton_candy_on_surface">#FF1A1A1A</color>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         CHOCOLATE COLLECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <!-- Dark Chocolate -->
+    <color name="dark_chocolate_primary">#FF3E2723</color>
+    <color name="dark_chocolate_accent">#FFD4AF37</color>
+    <color name="dark_chocolate_background">#FFFFFBF7</color>
+    <color name="dark_chocolate_surface">#FFFFF3E0</color>
+    <color name="dark_chocolate_on_primary">#FFFFF8E1</color>
+    <color name="dark_chocolate_on_surface">#FF1A1A1A</color>
+    
+    <!-- Milk Chocolate -->
+    <color name="milk_chocolate_primary">#FF8D6E63</color>
+    <color name="milk_chocolate_accent">#FFFFD54F</color>
+    <color name="milk_chocolate_background">#FFFFF8F0</color>
+    <color name="milk_chocolate_surface">#FFFFF3E0</color>
+    <color name="milk_chocolate_on_primary">#FFFFFFFF</color>
+    <color name="milk_chocolate_on_surface">#FF1A1A1A</color>
+    
+    <!-- White Chocolate -->
+    <color name="white_chocolate_primary">#FFFFF8E1</color>
+    <color name="white_chocolate_accent">#FFFFB6C1</color>
+    <color name="white_chocolate_background">#FFFFFFFF</color>
+    <color name="white_chocolate_surface">#xFFFFF9F0</color>
+    <color name="white_chocolate_on_primary">#FF3E2723</color>
+    <color name="white_chocolate_on_surface">#FF1A1A1A</color>
+    
+    <!-- Ruby Chocolate -->
+    <color name="ruby_chocolate_primary">#FFB76E79</color>
+    <color name="ruby_chocolate_accent">#FFFF69B4</color>
+    <color name="ruby_chocolate_background">#FFFFF0F5</color>
+    <color name="ruby_chocolate_surface">#FFFFE4E1</color>
+    <color name="ruby_chocolate_on_primary">#FFFFFFFF</color>
+    <color name="ruby_chocolate_on_surface">#FF1A1A1A</color>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         GUMMY COLLECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <!-- Gummy Bear -->
+    <color name="gummy_bear_primary">#FFFF1493</color>
+    <color name="gummy_bear_accent">#FF32CD32</color>
+    <color name="gummy_bear_background">#FFFFF8F0</color>
+    <color name="gummy_bear_surface">#FFF0FFF0</color>
+    <color name="gummy_bear_on_primary">#FFFFFFFF</color>
+    <color name="gummy_bear_on_surface">#FF1A1A1A</color>
+    
+    <!-- Gummy Worm -->
+    <color name="gummy_worm_primary">#FFFF0000</color>
+    <color name="gummy_worm_accent">#FFFFA500</color>
+    <color name="gummy_worm_background">#FFFFFBF7</color>
+    <color name="gummy_worm_surface">#FFFFF8F0</color>
+    <color name="gummy_worm_on_primary">#FFFFFFFF</color>
+    <color name="gummy_worm_on_surface">#FF1A1A1A</color>
+    
+    <!-- Sour Gummy -->
+    <color name="sour_gummy_primary">#FF39FF14</color>
+    <color name="sour_gummy_accent">#FFFF3F34</color>
+    <color name="sour_gummy_background">#FFFFF8F0</color>
+    <color name="sour_gummy_surface">#FFF0FFF0</color>
+    <color name="sour_gummy_on_primary">#FF1A1A1A</color>
+    <color name="sour_gummy_on_surface">#FF1A1A1A</color>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         LOLLIPOP COLLECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <!-- Lollipop Swirl -->
+    <color name="lollipop_swirl_primary">#FFFF1493</color>
+    <color name="lollipop_swirl_accent">#FF00BFFF</color>
+    <color name="lollipop_swirl_background">#FFFFF8F0</color>
+    <color name="lollipop_swirl_surface">#FFF0F8FF</color>
+    <color name="lollipop_swirl_on_primary">#FFFFFFFF</color>
+    <color name="lollipop_swirl_on_surface">#FF1A1A1A</color>
+    
+    <!-- Chupa Chups -->
+    <color name="chupa_chups_primary">#FFFF0000</color>
+    <color name="chupa_chups_accent">#FFFFFFFF</color>
+    <color name="chupa_chups_background">#FFFFFBF7</color>
+    <color name="chupa_chups_surface">#FFF0F0F0</color>
+    <color name="chupa_chups_on_primary">#FFFFFFFF</color>
+    <color name="chupa_chups_on_surface">#FF1A1A1A</color>
+    
+    <!-- Rainbow Pop -->
+    <color name="rainbow_pop_primary">#FFFF0000</color>
+    <color name="rainbow_pop_accent">#FF00BFFF</color>
+    <color name="rainbow_pop_background">#FFFFF8F0</color>
+    <color name="rainbow_pop_surface">#FFF0FFF0</color>
+    <color name="rainbow_pop_on_primary">#FFFFFFFF</color>
+    <color name="rainbow_pop_on_surface">#FF1A1A1A</color>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         CARAMEL COLLECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <!-- Salted Caramel -->
+    <color name="salted_caramel_primary">#FFC68E59</color>
+    <color name="salted_caramel_accent">#FFFFF8DC</color>
+    <color name="salted_caramel_background">#FFFFFAF0</color>
+    <color name="salted_caramel_surface">#FFFFF3E0</color>
+    <color name="salted_caramel_on_primary">#FFFFFFFF</color>
+    <color name="salted_caramel_on_surface">#FF1A1A1A</color>
+    
+    <!-- Caramel Delight -->
+    <color name="caramel_delight_primary">#FFB87333</color>
+    <color name="caramel_delight_accent">#FFFFDAB9</color>
+    <color name="caramel_delight_background">#FFFFF0E0</color>
+    <color name="caramel_delight_surface">#FFFFE4C4</color>
+    <color name="caramel_delight_on_primary">#FFFFFFFF</color>
+    <color name="caramel_delight_on_surface">#FF1A1A1A</color>
+    
+    <!-- Butterscotch -->
+    <color name="butterscotch_primary">#FFFFD700</color>
+    <color name="butterscotch_accent">#FFFFA500</color>
+    <color name="butterscotch_background">#FFFFFAF0</color>
+    <color name="butterscotch_surface">#FFFFF3E0</color>
+    <color name="butterscotch_on_primary">#FF1A1A1A</color>
+    <color name="butterscotch_on_surface">#FF1A1A1A</color>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         EXTREME SUGAR RUSH COLLECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <!-- Nuclear Sugar -->
+    <color name="nuclear_sugar_primary">#FF39FF14</color>
+    <color name="nuclear_sugar_accent">#FFFFFF00</color>
+    <color name="nuclear_sugar_background">#FF0A0A0A</color>
+    <color name="nuclear_sugar_surface">#FF1A1A1A</color>
+    <color name="nuclear_sugar_on_primary">#FF000000</color>
+    <color name="nuclear_sugar_on_surface">#FFFFFFFF</color>
+    
+    <!-- Candy Overload -->
+    <color name="candy_overload_primary">#FFFF1493</color>
+    <color name="candy_overload_accent">#FF00FFA3</color>
+    <color name="candy_overload_background">#FF0A0A0A</color>
+    <color name="candy_overload_surface">#FF1A1A1A</color>
+    <color name="candy_overload_on_primary">#FFFFFFFF</color>
+    <color name="candy_overload_on_surface">#FFFFFFFF</color>
+    
+    <!-- Skittles Storm -->
+    <color name="skittles_storm_primary">#FFFF0000</color>
+    <color name="skittles_storm_accent">#FF00BFFF</color>
+    <color name="skittles_storm_background">#FF0A0A0A</color>
+    <color name="skittles_storm_surface">#FF1A1A1A</color>
+    <color name="skittles_storm_on_primary">#FFFFFFFF</color>
+    <color name="skittles_storm_on_surface">#FFFFFFFF</color>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SEASONAL SPECIAL COLLECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <!-- Candy Cane -->
+    <color name="candy_cane_primary">#FFFF0000</color>
+    <color name="candy_cane_accent">#FFFFFFFF</color>
+    <color name="candy_cane_background">#FFFFF0F5</color>
+    <color name="candy_cane_surface">#FFFFF8F0</color>
+    <color name="candy_cane_on_primary">#FFFFFFFF</color>
+    <color name="candy_cane_on_surface">#FF1A1A1A</color>
+    
+    <!-- Peppermint -->
+    <color name="peppermint_primary">#FF00FFA3</color>
+    <color name="peppermint_accent">#FFFF1493</color>
+    <color name="peppermint_background">#FFF0FFF0</color>
+    <color name="peppermint_surface">#FFE0FFE0</color>
+    <color name="peppermint_on_primary">#FF1A1A1A</color>
+    <color name="peppermint_on_surface">#FF1A1A1A</color>
+    
+    <!-- Gingerbread -->
+    <color name="gingerbread_primary">#FF8D6E63</color>
+    <color name="gingerbread_accent">#FFFFD700</color>
+    <color name="gingerbread_background">#FFFFF8F0</color>
+    <color name="gingerbread_surface">#FFFFF3E0</color>
+    <color name="gingerbread_on_primary">#FFFFFFFF</color>
+    <color name="gingerbread_on_surface">#FF1A1A1A</color>
+
+    <!-- ═════════════════════════════════════════════════════════════════
+         SUGARGALLERY BRAND COLORS
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <color name="sugargallery_primary">#FFFF69B4</color>
+    <color name="sugargallery_primary_dark">#FFC71585</color>
+    <color name="sugargallery_accent">#FF00BFFF</color>
+    <color name="sugargallery_accent_variant">#FF0099CC</color>
+    
+    <!-- Background colors -->
+    <color name="sugargallery_background_light">#FFFFFBF7</color>
+    <color name="sugargallery_background_dark">#FF121212</color>
+    
+    <!-- Surface colors -->
+    <color name="sugargallery_surface">#FFFFFFFF</color>
+    <color name="sugargallery_surface_variant">#FFF5F5F5</color>
+    <color name="sugargallery_surface_dark">#FF1E1E1E</color>
+    
+    <!-- Text colors -->
+    <color name="sugargallery_on_primary">#FFFFFFFF</color>
+    <color name="sugargallery_on_surface">#FF1A1A1A</color>
+    <color name="sugargallery_on_surface_variant">#FF757575</color>
+    <color name="sugargallery_on_background">#FF1A1A1A</color>
+    
+    <!-- Special colors -->
+    <color name="sugargallery_error">#FFFF6B6B</color>
+    <color name="sugargallery_success">#FF51CF66</color>
+    <color name="sugargallery_warning">#FFFFD700</color>
+    <color name="sugargallery_info">#FF00BFFF</color>
+    
+    <!-- Candy sparkle colors -->
+    <color name="candy_sparkle_1">#FFFF69B4</color>
+    <color name="candy_sparkle_2">#FF00FFA3</color>
+    <color name="candy_sparkle_3">#FFFFD700</color>
+    <color name="candy_sparkle_4">#FF00BFFF</color>
+    <color name="candy_sparkle_5">#FFFF6347</color>
+    <color name="candy_sparkle_6">#FF9370DB</color>
+    
+    <!-- Gradient colors -->
+    <color name="gradient_start">#FFFF69B4</color>
+    <color name="gradient_center">#FF00BFFF</color>
+    <color name="gradient_end">#FF9370DB</color>
+    
+    <!-- Overlay colors -->
+    <color name="overlay_dark_10">#1A000000</color>
+    <color name="overlay_dark_20">#33000000</color>
+    <color name="overlay_dark_50">#80000000</color>
+    <color name="overlay_light_10">#1AFFFFFF</color>
+    <color name="overlay_light_20">#33FFFFFF</color>
+    <color name="overlay_light_50">#80FFFFFF</color>
+    
+    <!-- Divider colors -->
+    <color name="divider_light">#1F000000</color>
+    <color name="divider_dark">#1FFFFFFF</color>
+    
+    <!-- Ripple colors -->
+    <color name="ripple_light">#1F000000</color>
+    <color name="ripple_dark">#1FFFFFFF</color>
+</resources>

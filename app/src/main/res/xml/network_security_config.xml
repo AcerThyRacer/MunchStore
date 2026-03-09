@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <!--
+        SugarMunch Network Security Configuration
+        Certificate pinning for GitHub (manifest downloads). Firebase/Google use system CAs.
+        To rotate GitHub pins: run SSL Labs or openssl against raw.githubusercontent.com
+        and update the pin-set before expiration (see docs/SECURING_RELEASE.md).
+    -->
+
+    <!-- Base configuration applied to all domains -->
+    <base-config cleartextTraffic="false">
+        <trust-anchors>
+            <!-- Trust system certificates only in production -->
+            <certificates src="system" />
+            <!-- User certificates are only trusted in debug-overrides section below -->
+        </trust-anchors>
+    </base-config>
+
+    <!-- GitHub Raw domain for manifest downloads -->
+    <domain-config cleartextTraffic="false">
+        <domain includeSubdomains="true">raw.githubusercontent.com</domain>
+        <domain includeSubdomains="true">github.com</domain>
+        <domain includeSubdomains="true">api.github.com</domain>
+        <!-- Certificate Pinning for GitHub (Sectigo/USERTrust chain). Update before expiration. -->
+        <pin-set expiration="2027-01-01">
+            <pin digest="SHA-256">1FtgkXeU53bUTaObUogizKNIqs/ZGaEo1k2AwG30xts=</pin>
+            <pin digest="SHA-256">4a6cPehI7OG6cuDZka5NDZ7FR8a60d3auda+sKfg4Ng=</pin>
+            <pin digest="SHA-256">x4QzPSC810K5/cMjb05Qm4k3Bw5zBn4lTdO/nEW/Td4=</pin>
+        </pin-set>
+    </domain-config>
+
+    <!-- Firebase domains for Crashlytics and Analytics -->
+    <domain-config cleartextTraffic="false">
+        <domain includeSubdomains="true">firebaseinstallations.googleapis.com</domain>
+        <domain includeSubdomains="true">firebaseremoteconfig.googleapis.com</domain>
+        <domain includeSubdomains="true">firebaseabtesting.googleapis.com</domain>
+        <domain includeSubdomains="true">firebasestorage.googleapis.com</domain>
+        <domain includeSubdomains="true">app-measurement.com</domain>
+        <domain includeSubdomains="true">googleapis.com</domain>
+        
+        <!-- Google/Firebase: trust system CAs (Google roots are in system store). Pins optional. -->
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Google services for Play Services and Maps -->
+    <domain-config cleartextTraffic="false">
+        <domain includeSubdomains="true">google.com</domain>
+        <domain includeSubdomains="true">gstatic.com</domain>
+        <domain includeSubdomains="true">googleusercontent.com</domain>
+        <domain includeSubdomains="true">ggpht.com</domain>
+        
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+
+    <!-- Debug configuration - allows user certificates for debugging ONLY -->
+    <debug-overrides>
+        <trust-anchors>
+            <!-- Trust user-added certificates during development -->
+            <!-- SECURITY: overridePins is ONLY active in debug builds -->
+            <certificates src="user" overridePins="true" />
+            <!-- Trust system certificates -->
+            <certificates src="system" />
+        </trust-anchors>
+        
+        <!-- Disable pinning in debug mode for easier testing -->
+        <!-- WARNING: Only use in debug builds! -->
+        <pin-set>
+            <!-- Empty pin set disables pinning in debug -->
+        </pin-set>
+    </debug-overrides>
+</network-security-config>

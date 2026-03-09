@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SugarGallery - Theme Resources -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <!-- Base SugarGallery Theme -->
+    <style name="SugarGalleryTheme" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/sugargallery_primary</item>
+        <item name="colorPrimaryVariant">@color/sugargallery_primary_dark</item>
+        <item name="colorOnPrimary">@color/sugargallery_on_primary</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/sugargallery_accent</item>
+        <item name="colorSecondaryVariant">@color/sugargallery_accent_variant</item>
+        <item name="colorOnSecondary">@color/sugargallery_on_primary</item>
+        
+        <!-- Background and surface -->
+        <item name="android:colorBackground">@color/sugargallery_background_light</item>
+        <item name="colorSurface">@color/sugargallery_surface</item>
+        <item name="colorOnSurface">@color/sugargallery_on_surface</item>
+        <item name="colorSurfaceVariant">@color/sugargallery_surface_variant</item>
+        <item name="colorOnSurfaceVariant">@color/sugargallery_on_surface_variant</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/sugargallery_error</item>
+        <item name="colorOnError">@android:color/white</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/sugargallery_primary</item>
+        <item name="android:navigationBarColor">@color/sugargallery_surface</item>
+        
+        <!-- Window -->
+        <item name="android:windowBackground">@color/sugargallery_background_light</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        
+        <!-- Ripple -->
+        <item name="android:colorControlHighlight">@color/ripple_light</item>
+    </style>
+    
+    <!-- Dark SugarGallery Theme -->
+    <style name="SugarGalleryTheme.Dark" parent="Theme.Material3.Dark.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/sugargallery_primary</item>
+        <item name="colorPrimaryVariant">@color/sugargallery_primary_dark</item>
+        <item name="colorOnPrimary">@color/sugargallery_on_primary</item>
+        
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/sugargallery_accent</item>
+        <item name="colorSecondaryVariant">@color/sugargallery_accent_variant</item>
+        <item name="colorOnSecondary">@color/sugargallery_on_primary</item>
+        
+        <!-- Background and surface -->
+        <item name="android:colorBackground">@color/sugargallery_background_dark</item>
+        <item name="colorSurface">@color/sugargallery_surface_dark</item>
+        <item name="colorOnSurface">@android:color/white</item>
+        <item name="colorSurfaceVariant">@color/sugargallery_surface_dark</item>
+        <item name="colorOnSurfaceVariant">@color/sugargallery_on_surface_variant</item>
+        
+        <!-- Error colors -->
+        <item name="colorError">@color/sugargallery_error</item>
+        <item name="colorOnError">@android:color/white</item>
+        
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/sugargallery_primary</item>
+        <item name="android:navigationBarColor">@color/sugargallery_surface_dark</item>
+        
+        <!-- Window -->
+        <item name="android:windowBackground">@color/sugargallery_background_dark</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item>
+        
+        <!-- Ripple -->
+        <item name="android:colorControlHighlight">@color/ripple_dark</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         COTTON CANDY THEMES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.CottonCandy" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/cotton_candy_primary</item>
+        <item name="colorPrimaryVariant">@color/cotton_candy_primary</item>
+        <item name="colorSecondary">@color/cotton_candy_accent</item>
+        <item name="android:colorBackground">@color/cotton_candy_background</item>
+        <item name="colorSurface">@color/cotton_candy_surface</item>
+        <item name="android:statusBarColor">@color/cotton_candy_primary</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.PinkCottonCandy" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/pink_cotton_candy_primary</item>
+        <item name="colorSecondary">@color/pink_cotton_candy_accent</item>
+        <item name="android:colorBackground">@color/pink_cotton_candy_background</item>
+        <item name="colorSurface">@color/pink_cotton_candy_surface</item>
+        <item name="android:statusBarColor">@color/pink_cotton_candy_primary</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.BlueCottonCandy" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/blue_cotton_candy_primary</item>
+        <item name="colorSecondary">@color/blue_cotton_candy_accent</item>
+        <item name="android:colorBackground">@color/blue_cotton_candy_background</item>
+        <item name="colorSurface">@color/blue_cotton_candy_surface</item>
+        <item name="android:statusBarColor">@color/blue_cotton_candy_primary</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         CHOCOLATE THEMES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.DarkChocolate" parent="SugarGalleryTheme.Dark">
+        <item name="colorPrimary">@color/dark_chocolate_primary</item>
+        <item name="colorSecondary">@color/dark_chocolate_accent</item>
+        <item name="android:colorBackground">@color/dark_chocolate_background</item>
+        <item name="colorSurface">@color/dark_chocolate_surface</item>
+        <item name="android:statusBarColor">@color/dark_chocolate_primary</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.MilkChocolate" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/milk_chocolate_primary</item>
+        <item name="colorSecondary">@color/milk_chocolate_accent</item>
+        <item name="android:colorBackground">@color/milk_chocolate_background</item>
+        <item name="colorSurface">@color/milk_chocolate_surface</item>
+        <item name="android:statusBarColor">@color/milk_chocolate_primary</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.WhiteChocolate" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/white_chocolate_primary</item>
+        <item name="colorSecondary">@color/white_chocolate_accent</item>
+        <item name="android:colorBackground">@color/white_chocolate_background</item>
+        <item name="colorSurface">@color/white_chocolate_surface</item>
+        <item name="android:statusBarColor">@color/white_chocolate_primary</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.RubyChocolate" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/ruby_chocolate_primary</item>
+        <item name="colorSecondary">@color/ruby_chocolate_accent</item>
+        <item name="android:colorBackground">@color/ruby_chocolate_background</item>
+        <item name="colorSurface">@color/ruby_chocolate_surface</item>
+        <item name="android:statusBarColor">@color/ruby_chocolate_primary</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         GUMMY THEMES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.GummyBear" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/gummy_bear_primary</item>
+        <item name="colorSecondary">@color/gummy_bear_accent</item>
+        <item name="android:colorBackground">@color/gummy_bear_background</item>
+        <item name="colorSurface">@color/gummy_bear_surface</item>
+        <item name="android:statusBarColor">@color/gummy_bear_primary</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.SourGummy" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/sour_gummy_primary</item>
+        <item name="colorSecondary">@color/sour_gummy_accent</item>
+        <item name="android:colorBackground">@color/sour_gummy_background</item>
+        <item name="colorSurface">@color/sour_gummy_surface</item>
+        <item name="android:statusBarColor">@color/sour_gummy_primary</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         LOLLIPOP THEMES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.LollipopSwirl" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/lollipop_swirl_primary</item>
+        <item name="colorSecondary">@color/lollipop_swirl_accent</item>
+        <item name="android:colorBackground">@color/lollipop_swirl_background</item>
+        <item name="colorSurface">@color/lollipop_swirl_surface</item>
+        <item name="android:statusBarColor">@color/lollipop_swirl_primary</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.RainbowPop" parent="SugarGalleryTheme">
+        <item name="colorPrimary">@color/rainbow_pop_primary</item>
+        <item name="colorSecondary">@color/rainbow_pop_accent</item>
+        <item name="android:colorBackground">@color/rainbow_pop_background</item>
+        <item name="colorSurface">@color/rainbow_pop_surface</item>
+        <item name="android:statusBarColor">@color/rainbow_pop_primary</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         EXTREME SUGAR RUSH THEMES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.NuclearSugar" parent="SugarGalleryTheme.Dark">
+        <item name="colorPrimary">@color/nuclear_sugar_primary</item>
+        <item name="colorSecondary">@color/nuclear_sugar_accent</item>
+        <item name="android:colorBackground">@color/nuclear_sugar_background</item>
+        <item name="colorSurface">@color/nuclear_sugar_surface</item>
+        <item name="android:statusBarColor">@color/nuclear_sugar_primary</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.CandyOverload" parent="SugarGalleryTheme.Dark">
+        <item name="colorPrimary">@color/candy_overload_primary</item>
+        <item name="colorSecondary">@color/candy_overload_accent</item>
+        <item name="android:colorBackground">@color/candy_overload_background</item>
+        <item name="colorSurface">@color/candy_overload_surface</item>
+        <item name="android:statusBarColor">@color/candy_overload_primary</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         DIALOG THEMES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.Dialog" parent="Theme.Material3.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/sugargallery_primary</item>
+        <item name="colorSecondary">@color/sugargallery_accent</item>
+        <item name="android:windowBackground">@color/sugargallery_surface</item>
+        <item name="android:windowCornerRadius">24dp</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.Dialog.Fullscreen" parent="SugarGalleryTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         SPLASH SCREEN THEME
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/sugargallery_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_candy_launcher</item>
+        <item name="windowSplashScreenAnimationDuration">1000</item>
+        <item name="postSplashScreenTheme">@style/SugarGalleryTheme</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         TEXT STYLES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.Text.Headline">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sugargallery_on_surface</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.Text.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/sugargallery_on_surface</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.Text.Body">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/sugargallery_on_surface_variant</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.Text.Caption">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/sugargallery_on_surface_variant</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         BUTTON STYLES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.Button.Candy" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/sugargallery_primary</item>
+        <item name="android:textColor">@color/sugargallery_on_primary</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.Button.Candy.Outlined" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/sugargallery_primary</item>
+        <item name="android:textColor">@color/sugargallery_primary</item>
+        <item name="cornerRadius">24dp</item>
+    </style>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         CARD STYLES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <style name="SugarGalleryTheme.Card.Candy" parent="Widget.Material3.CardView.Filled">
+        <item name="cardBackgroundColor">@color/sugargallery_surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">4dp</item>
+    </style>
+    
+    <style name="SugarGalleryTheme.Card.Candy.Elevated" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/sugargallery_surface</item>
+        <item name="cardCornerRadius">16dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SugarMunch</string>
+    <string name="complication_label">SugarMunch Effects</string>
+    <string name="tile_label">SugarMunch Quick Actions</string>
+    
+    <!-- Effect Categories -->
+    <string name="category_visual">Visual</string>
+    <string name="category_particles">Particles</string>
+    <string name="category_animations">Animations</string>
+    <string name="category_haptic">Haptic</string>
+    
+    <!-- Actions -->
+    <string name="action_turn_on">Turn On</string>
+    <string name="action_turn_off">Turn Off</string>
+    <string name="action_apply">Apply</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_all_off">All Off</string>
+    <string name="action_boost">Boost Mode</string>
+    
+    <!-- Presets -->
+    <string name="preset_chill">Chill</string>
+    <string name="preset_focus">Focus</string>
+    <string name="preset_party">Party</string>
+    <string name="preset_gaming">Gaming</string>
+    
+    <!-- Connection Status -->
+    <string name="status_connected">Connected</string>
+    <string name="status_disconnected">Disconnected</string>
+    <string name="status_connecting">Connecting…</string>
+    <string name="status_error">Connection Error</string>
+    
+    <!-- Complication -->
+    <string name="complication_no_effects">No effects</string>
+    <string name="complication_one_effect">1 effect</string>
+    <string name="complication_effects_active">%d effects</string>
+    
+    <!-- Content Descriptions -->
+    <string name="desc_effect_icon">Effect icon</string>
+    <string name="desc_theme_preview">Theme preview</string>
+    <string name="desc_boost_mode">Boost mode toggle</string>
+    <string name="desc_preset_button">Preset button</string>
+</resources>

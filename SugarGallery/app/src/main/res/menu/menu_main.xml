@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SugarGallery - Main Menu -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:title="@string/cd_search"
+        app:iconTint="@android:color/white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_theme_picker"
+        android:icon="@drawable/ic_palette"
+        android:title="@string/choose_sugar_theme"
+        app:iconTint="@android:color/white"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_sort"
+        android:icon="@drawable/ic_sort"
+        android:title="@string/cd_sort"
+        app:iconTint="@android:color/white"
+        app:showAsAction="ifRoom">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_date_desc"
+                    android:title="Date (Newest)" />
+                <item
+                    android:id="@+id/sort_date_asc"
+                    android:title="Date (Oldest)" />
+                <item
+                    android:id="@+id/sort_name_asc"
+                    android:title="Name (A-Z)" />
+                <item
+                    android:id="@+id/sort_name_desc"
+                    android:title="Name (Z-A)" />
+                <item
+                    android:id="@+id/sort_size_desc"
+                    android:title="Size (Largest)" />
+                <item
+                    android:id="@+id/sort_size_asc"
+                    android:title="Size (Smallest)" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/menu_recycle_bin"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/recycle_bin_settings"
+        app:iconTint="@android:color/white"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_hidden_folders"
+        android:icon="@drawable/ic_folder_hidden"
+        android:title="@string/hidden_folders"
+        app:iconTint="@android:color/white"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:iconTint="@android:color/white"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu_about"
+        android:icon="@drawable/ic_info"
+        android:title="@string/about"
+        app:iconTint="@android:color/white"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ComplicationDataSource
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/ic_candy"
+    android:label="@string/complication_label"
+    android:description="Shows active SugarMunch effects count"
+    android:supportedTypes="SHORT_TEXT,LONG_TEXT,RANGED_VALUE,ICON,SMALL_IMAGE"
+    android:updatePeriodSeconds="60" />

@@ -1,0 +1,111 @@
+[versions]
+# Build versions
+app-build-compileSDKVersion = "34"
+app-build-targetSDK = "34"
+app-build-minimumSDK = "24"
+app-build-javaVersion = "VERSION_17"
+app-build-kotlinJVMTarget = "17"
+
+# Plugin versions
+android-gradle-plugin = "8.2.2"
+kotlin = "1.9.22"
+ksp = "1.9.22-1.0.17"
+detekt = "1.23.4"
+
+# Library versions
+fossify-commons = "1.0.0"
+androidx-core = "1.12.0"
+androidx-lifecycle = "2.7.0"
+androidx-constraintlayout = "2.1.4"
+androidx-documentfile = "1.0.1"
+androidx-media3 = "1.2.1"
+androidx-swiperefreshlayout = "1.1.0"
+androidx-print = "1.0.0"
+androidx-room = "2.6.1"
+androidx-appcompat = "1.6.1"
+androidx-material = "1.11.0"
+
+# Image libraries
+glide = "4.16.0"
+picasso = "2.8"
+android-image-cropper = "4.5.0"
+exif = "1.3.7"
+android-gif-drawable = "1.2.28"
+androidsvg = "1.4"
+sanselan = "0.97-incubator"
+androidphotofilters = "1.0.2"
+awebp = "1.4.0"
+apng = "2.1.0"
+avif = "0.10.0"
+jxl = "0.3.0"
+webpdecoder = "1.4.0"
+
+# Other libraries
+gestureviews = "2.6.1"
+subsamplingscaleimageview = "3.10.0"
+okio = "3.7.0"
+okhttp = "4.12.0"
+compose-detekt = "1.5.1"
+
+[libraries]
+# Fossify
+fossify-commons = { group = "com.github.FossifyOrg", name = "Commons", version.ref = "fossify-commons" }
+
+# AndroidX
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "androidx-core" }
+androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "androidx-lifecycle" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidx-constraintlayout" }
+androidx-documentfile = { group = "androidx.documentfile", name = "documentfile", version.ref = "androidx-documentfile" }
+androidx-media3-exoplayer = { group = "androidx.media3", name = "media3-exoplayer", version.ref = "androidx-media3" }
+androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "androidx-swiperefreshlayout" }
+androidx-print = { group = "androidx.print", name = "print", version.ref = "androidx-print" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
+androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "androidx-room" }
+androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "androidx-room" }
+androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "androidx-room" }
+
+# Material
+material = { group = "com.google.android.material", name = "material", version.ref = "androidx-material" }
+
+# Image loading
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
+picasso = { group = "com.squareup.picasso", name = "picasso", version.ref = "picasso" }
+
+# Image processing
+android-image-cropper = { group = "com.vanniktech", name = "android-image-cropper", version.ref = "android-image-cropper" }
+exif = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exif" }
+android-gif-drawable = { group = "pl.droidsonroids.gif", name = "android-gif-drawable", version.ref = "android-gif-drawable" }
+androidsvg = { group = "com.caverock", name = "androidsvg-aar", version.ref = "androidsvg" }
+sanselan = { group = "org.apache.sanselan", name = "sanselan", version.ref = "sanselan" }
+androidphotofilters = { group = "com.github.zhanghai", name = "AndroidPhotoFilters", version.ref = "androidphotofilters" }
+
+# Image format support
+awebp = { group = "com.github.nicklockwood", name = "AndroidWebp", version.ref = "awebp" }
+apng = { group = "com.github.penfeizhou.android.animation", name = "apng", version.ref = "apng" }
+avif = { group = "org.aomedia.avif.android", name = "avif", version.ref = "avif" }
+avif-integration = { group = "org.aomedia.avif.android", name = "avif-integration", version.ref = "avif" }
+jxl-integration = { group = "org.aomedia.jxl.android", name = "jxl-integration", version.ref = "jxl" }
+webpdecoder = { group = "com.github.zjupure", name = "webpdecoder", version.ref = "webpdecoder" }
+
+# UI libraries
+gestureviews = { group = "com.alexvasilkov", name = "gesture-views", version.ref = "gestureviews" }
+subsamplingscaleimageview = { group = "com.davemorrissey.labs", name = "subsampling-scale-image-view", version.ref = "subsamplingscaleimageview" }
+
+# Other
+okio = { group = "com.squareup.okio", name = "okio", version.ref = "okio" }
+okhttp = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp" }
+compose-detekt = { group = "io.nlopez.compose.rules", name = "detekt", version.ref = "compose-detekt" }
+
+# Plugin libraries
+android-gradle-plugin = { group = "com.android.tools.build", name = "gradle", version.ref = "android-gradle-plugin" }
+kotlin-gradle-plugin = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+
+[bundles]
+room = ["androidx-room-runtime", "androidx-room-ktx"]
+
+[plugins]
+android = { id = "com.android.application", version.ref = "android-gradle-plugin" }
+kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
+detekt = { id = "io.gitlab.arturbosch.detekt", version.ref = "detekt" }

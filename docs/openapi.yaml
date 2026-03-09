@@ -1,0 +1,58 @@
+openapi: 3.0.3
+info:
+  title: SugarMunch Protocol
+  description: Open protocol for catalog, achievements, clans, and trading. Third-party stores/launchers can integrate.
+  version: 0.1.0
+servers:
+  - url: https://api.sugarmunch.app/v1
+    description: Production (placeholder)
+paths:
+  /catalog:
+    get:
+      summary: List apps
+      operationId: listApps
+      parameters:
+        - name: category
+          in: query
+          schema:
+            type: string
+        - name: featured
+          in: query
+          schema:
+            type: boolean
+      responses:
+        '200':
+          description: App list
+  /achievements:
+    get:
+      summary: List achievements
+      operationId: listAchievements
+      responses:
+        '200':
+          description: Achievement definitions
+  /clans:
+    get:
+      summary: List clans (leaderboard)
+      operationId: listClans
+      responses:
+        '200':
+          description: Clan list
+  /trades:
+    get:
+      summary: List trade offers
+      operationId: listTrades
+      responses:
+        '200':
+          description: Trade list
+    post:
+      summary: Create trade
+      operationId: createTrade
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+      responses:
+        '201':
+          description: Created

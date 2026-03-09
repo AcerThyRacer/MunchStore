@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TaffySend Preview</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg-a: #2a0c2a;
+      --bg-b: #7c2d12;
+      --bg-c: #ff8a65;
+      --card: rgba(255,255,255,0.12);
+      --border: rgba(255,255,255,0.18);
+      --text: #fff8f5;
+      --muted: rgba(255,248,245,0.78);
+      --beam-a: #ff8a65;
+      --beam-b: #ff4d8d;
+      --beam-c: #ffc857;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(circle at top right, rgba(255,200,87,0.28), transparent 25%),
+        radial-gradient(circle at left center, rgba(255,77,141,0.35), transparent 28%),
+        linear-gradient(160deg, var(--bg-a), var(--bg-b), var(--bg-c));
+    }
+
+    .shell {
+      max-width: 920px;
+      margin: 0 auto;
+      padding: 28px 20px 40px;
+    }
+
+    .hero {
+      border-radius: 28px;
+      padding: 28px;
+      background: linear-gradient(160deg, rgba(255,255,255,0.18), rgba(255,255,255,0.08));
+      border: 1px solid var(--border);
+      box-shadow: 0 18px 55px rgba(47, 11, 16, 0.35);
+      backdrop-filter: blur(18px);
+      overflow: hidden;
+    }
+
+    .eyebrow {
+      display: inline-block;
+      padding: 10px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.12);
+      font-size: 13px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+
+    h1 {
+      margin: 18px 0 10px;
+      font-size: 40px;
+      line-height: 1.05;
+    }
+
+    p {
+      margin: 0;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .chip-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 18px;
+    }
+
+    .chip {
+      padding: 9px 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.12);
+      font-size: 14px;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .transfer-stage {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 120px minmax(0, 1fr);
+      align-items: center;
+      gap: 18px;
+      margin-top: 28px;
+    }
+
+    .device {
+      padding: 18px;
+      min-height: 190px;
+      border-radius: 24px;
+      border: 1px solid rgba(255,255,255,0.12);
+      background: linear-gradient(180deg, rgba(255,255,255,0.16), rgba(255,255,255,0.08));
+    }
+
+    .device strong {
+      display: block;
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+
+    .icon {
+      width: 58px;
+      height: 58px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      margin-bottom: 16px;
+      font-size: 28px;
+      background: linear-gradient(135deg, var(--beam-a), var(--beam-b));
+      box-shadow: 0 10px 32px rgba(255,77,141,0.24);
+    }
+
+    .beam {
+      position: relative;
+      height: 16px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.12);
+      overflow: hidden;
+    }
+
+    .beam::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      width: 70%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--beam-a), var(--beam-b), var(--beam-c));
+      animation: beamSlide 1.8s ease-in-out infinite;
+    }
+
+    .burst {
+      text-align: center;
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 10px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    .panel-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+
+    .panel {
+      padding: 18px;
+      border-radius: 22px;
+      background: rgba(12, 7, 8, 0.18);
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .meter {
+      height: 14px;
+      border-radius: 999px;
+      background: rgba(255,255,255,0.12);
+      overflow: hidden;
+      margin-top: 14px;
+    }
+
+    .meter > span {
+      display: block;
+      height: 100%;
+      width: 86%;
+      border-radius: inherit;
+      background: linear-gradient(90deg, var(--beam-a), var(--beam-b), var(--beam-c));
+      animation: pulseBar 2.4s ease-in-out infinite;
+    }
+
+    .footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 16px;
+      margin-top: 22px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    @keyframes beamSlide {
+      0% { transform: translateX(-25%); width: 50%; }
+      50% { transform: translateX(55%); width: 78%; }
+      100% { transform: translateX(-25%); width: 50%; }
+    }
+
+    @keyframes pulseBar {
+      0%, 100% { width: 84%; }
+      50% { width: 98%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="shell">
+    <section class="hero">
+      <div class="eyebrow">Phase 1 Preview · Transfer Studio</div>
+      <h1>TaffySend</h1>
+      <p>Stretchy local sharing with candy beams, QR pairing, and bright nearby device drops.</p>
+      <div class="chip-row">
+        <div class="chip">Ribbon Burst</div>
+        <div class="chip">QR Pairing</div>
+        <div class="chip">Nearby Drops</div>
+        <div class="chip">Share Lab</div>
+      </div>
+
+      <div class="transfer-stage">
+        <article class="device">
+          <div class="icon">L</div>
+          <strong>Laptop</strong>
+          <p>Ready to receive quick drops and themed hand-offs.</p>
+        </article>
+
+        <div>
+          <div class="beam"></div>
+          <div class="burst">Candy Beam Active</div>
+        </div>
+
+        <article class="device">
+          <div class="icon">P</div>
+          <strong>Phone</strong>
+          <p>Pair nearby devices, scan QR prompts, and keep the ribbon moving.</p>
+        </article>
+      </div>
+
+      <div class="panel-grid">
+        <div class="panel">
+          <strong>QR Burst</strong>
+          <p>Show warm pairing prompts with faster handoff and clean trust badges.</p>
+        </div>
+        <div class="panel">
+          <strong>Transfer Intensity</strong>
+          <p>Scale beam glow, label pulse, and progress shimmer for a louder handoff.</p>
+          <div class="meter"><span></span></div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <span>Suggested themes: Taffy Transfer Rush, Cotton Candy, Trippy Galaxy</span>
+        <span>SugarMunch Preview Layer</span>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+  SugarMunch Translations - Spanish (Español)
+  Translate all strings for Spanish-speaking users
+-->
+<resources>
+    <!-- App Name -->
+    <string name="app_name">SugarMunch</string>
+    
+    <!-- Navigation -->
+    <string name="nav_catalog">Catálogo</string>
+    <string name="nav_effects">Efectos</string>
+    <string name="nav_themes">Temas</string>
+    <string name="nav_settings">Configuración</string>
+    
+    <!-- Search -->
+    <string name="search_hint">Buscar aplicaciones, juegos, temas...</string>
+    <string name="search_recent">Búsquedas recientes</string>
+    <string name="search_clear_all">Borrar todo</string>
+    <string name="search_no_results">No se encontraron resultados</string>
+    <string name="search_filters">Filtros</string>
+    <string name="search_sort">Ordenar</string>
+    
+    <!-- Filters -->
+    <string name="filter_categories">Categorías</string>
+    <string name="filter_rating">Calificación mínima</string>
+    <string name="filter_size">Tamaño máximo</string>
+    <string name="filter_featured">Solo destacados</string>
+    <string name="filter_free">Solo gratis</string>
+    <string name="filter_reset">Restablecer</string>
+    <string name="filter_apply">Aplicar</string>
+    
+    <!-- Sort Options -->
+    <string name="sort_relevance">Relevancia</string>
+    <string name="sort_name_az">Nombre (A-Z)</string>
+    <string name="sort_name_za">Nombre (Z-A)</string>
+    <string name="sort_rating_high">Calificación (Mayor-Menor)</string>
+    <string name="sort_rating_low">Calificación (Menor-Mayor)</string>
+    <string name="sort_size_small">Tamaño (Pequeño-Grande)</string>
+    <string name="sort_size_large">Tamaño (Grande-Pequeño)</string>
+    <string name="sort_newest">Más reciente</string>
+    <string name="sort_popular">Más popular</string>
+    
+    <!-- Categories -->
+    <string name="category_video_music">Video y Música</string>
+    <string name="category_games">Juegos</string>
+    <string name="category_productivity">Productividad</string>
+    <string name="category_social">Social</string>
+    <string name="category_tools">Herramientas</string>
+    <string name="category_other">Otro</string>
+    
+    <!-- App Detail -->
+    <string name="app_download">Descargar</string>
+    <string name="app_install">Instalar</string>
+    <string name="app_open">Abrir</string>
+    <string name="app_share">Compartir</string>
+    <string name="app_favorite">Favorito</string>
+    <string name="app_description">Descripción</string>
+    <string name="app_version">Versión</string>
+    <string name="app_size">Tamaño</string>
+    <string name="app_downloads">Descargas</string>
+    <string name="app_rating">Calificación</string>
+    
+    <!-- Effects -->
+    <string name="effects_title">Efectos Visuales</string>
+    <string name="effects_active">Efectos Activos</string>
+    <string name="effects_intensity">Intensidad</string>
+    <string name="effects_master">Intensidad Maestra</string>
+    <string name="effects_boost">Impulsar Todo</string>
+    <string name="effects_maximum">¡MÁXIMO!</string>
+    <string name="effects_presets">Preajustes</string>
+    <string name="effects_haptic">Háptico</string>
+    <string name="effects_audio">Audio</string>
+    
+    <!-- Effect Categories -->
+    <string name="effect_visual">Superposiciones Visuales</string>
+    <string name="effect_particle">Efectos de Partículas</string>
+    <string name="effect_animation">Animaciones</string>
+    <string name="effect_haptic">Efectos Hápticos</string>
+    
+    <!-- Themes -->
+    <string name="themes_title">Temas</string>
+    <string name="themes_apply">Aplicar Tema</string>
+    <string name="themes_preview">Vista Previa</string>
+    <string name="themes_create">Crear Tema</string>
+    <string name="themes_export">Exportar</string>
+    <string name="themes_import">Importar</string>
+    
+    <!-- Rewards -->
+    <string name="rewards_title">Recompensas Diarias</string>
+    <string name="rewards_claim">¡Reclamar!</string>
+    <string name="rewards_claimed">Reclamado</string>
+    <string name="rewards_streak">Racha: %d días</string>
+    <string name="rewards_coming_soon">Próximamente</string>
+    <string name="rewards_bonus">¡Bono de %dx!</string>
+    
+    <!-- Shop -->
+    <string name="shop_title">Tienda Sugar</string>
+    <string name="shop_points">Puntos Sugar: %d</string>
+    <string name="shop_purchase">Comprar</string>
+    <string name="shop_owned">Poseído</string>
+    <string name="shop_equipped">Equipado</string>
+    <string name="shop_equip">Equipar</string>
+    <string name="shop_categories">Categorías de Tienda</string>
+    
+    <!-- Achievements -->
+    <string name="achievements_title">Logros</string>
+    <string name="achievements_unlocked">Desbloqueado</string>
+    <string name="achievements_locked">Bloqueado</string>
+    <string name="achievements_progress">Progreso: %d/%d</string>
+    <string name="achievements_points">%d puntos</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_general">General</string>
+    <string name="settings_appearance">Apariencia</string>
+    <string name="settings_notifications">Notificaciones</string>
+    <string name="settings_privacy">Privacidad</string>
+    <string name="settings_about">Acerca de</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_theme_dark">Tema Oscuro</string>
+    <string name="settings_theme_light">Tema Claro</string>
+    <string name="settings_theme_system">Seguir Sistema</string>
+    
+    <!-- Onboarding -->
+    <string name="onboarding_welcome">Bienvenido a SugarMunch</string>
+    <string name="onboarding_effects">Efectos Visuales Impresionantes</string>
+    <string name="onboarding_themes">Temas Hermosos</string>
+    <string name="onboarding_rewards">Gana Recompensas</string>
+    <string name="onboarding_permissions">Permisos</string>
+    <string name="onboarding_skip">Omitir</string>
+    <string name="onboarding_next">Siguiente</string>
+    <string name="onboarding_get_started">Comenzar</string>
+    
+    <!-- Common -->
+    <string name="common_loading">Cargando...</string>
+    <string name="common_error">Error</string>
+    <string name="common_retry">Reintentar</string>
+    <string name="common_cancel">Cancelar</string>
+    <string name="common_confirm">Confirmar</string>
+    <string name="common_delete">Eliminar</string>
+    <string name="common_save">Guardar</string>
+    <string name="common_close">Cerrar</string>
+    <string name="common_back">Atrás</string>
+    
+    <!-- Notifications -->
+    <string name="notification_download_complete">Descarga completada</string>
+    <string name="notification_download_failed">Descarga fallida</string>
+    <string name="notification_reward_available">Recompensa disponible</string>
+    
+    <!-- Permissions -->
+    <string name="permission_overlay_title">Mostrar sobre otras apps</string>
+    <string name="permission_overlay_description">Necesario para mostrar efectos visuales sobre otras aplicaciones</string>
+    <string name="permission_install_title">Instalar apps desconocidas</string>
+    <string name="permission_install_description">Necesario para instalar APKs descargadas</string>
+    <string name="permission_notification_title">Notificaciones</string>
+    <string name="permission_notification_description">Para mostrar progreso de descargas y recompensas</string>
+    
+    <!-- Backup -->
+    <string name="backup_title">Copia de Seguridad</string>
+    <string name="backup_create">Crear Copia</string>
+    <string name="backup_restore">Restaurar</string>
+    <string name="backup_cloud">Proton Drive</string>
+    <string name="backup_login">Iniciar Sesión</string>
+    <string name="backup_logout">Cerrar Sesión</string>
+</resources>

@@ -1,0 +1,67 @@
+# Built application files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local configuration
+local.properties
+.env
+.env.*
+!.env.example
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.DS_Store
+
+# Keystore
+*.jks
+*.keystore
+*.p12
+
+# Logs
+*.log
+
+# Android
+/captures
+.externalNativeBuild
+.cxx
+.mergedManifests
+.generated
+ intermediates/
+ outputs/
+ tmp/
+
+# Kotlin
+*.kotlin_module
+
+# NDK
+obj/
+.ndk.build
+
+# ProGuard
+proguard/
+
+# Generated files
+*.gen
+*.out
+
+# Test artifacts
+test-results/
+coverage/
+*.lcov
+
+# OS files
+Thumbs.db
+.DS_Store

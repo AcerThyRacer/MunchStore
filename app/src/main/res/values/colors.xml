@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Candy palette -->
+    <color name="candy_pink">#FFB6C1</color>
+    <color name="candy_mint">#98FF98</color>
+    <color name="candy_yellow">#FFFACD</color>
+    <color name="candy_caramel">#DEB887</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Semantic roles (WCAG AA–friendly). Use for toasts, banners, empty states. -->
+    <color name="semantic_success">#2E7D32</color>
+    <color name="semantic_success_container">#C8E6C9</color>
+    <color name="semantic_warning">#F57C00</color>
+    <color name="semantic_warning_container">#FFE0B2</color>
+    <color name="semantic_error">#C62828</color>
+    <color name="semantic_error_container">#FFCDD2</color>
+    <color name="semantic_info">#1565C0</color>
+    <color name="semantic_info_container">#BBDEFB</color>
+</resources>

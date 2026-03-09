@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base TV Theme -->
+    <style name="Theme.SugarMunch.TV" parent="Theme.Leanback">
+        <!-- Primary colors -->
+        <item name="colorPrimary">#FFB6C1</item>
+        <item name="colorPrimaryDark">#FF9AAE</item>
+        <item name="colorAccent">#98FF98</item>
+        
+        <!-- Background colors -->
+        <item name="android:colorBackground">#1A1A1A</item>
+        <item name="android:windowBackground">#1A1A1A</item>
+        
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">#FFFFFF</item>
+        <item name="android:textColorSecondary">#B3B3B3</item>
+        
+        <!-- Leanback specific -->
+        <item name="browseTitleViewLayout">@layout/tv_browse_title</item>
+        <item name="browseRowsMarginStart">48dp</item>
+        <item name="browseRowsMarginTop">48dp</item>
+        <item name="browseRowsMarginEnd">48dp</item>
+        
+        <!-- Window settings -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- TV Theme without ActionBar -->
+    <style name="Theme.SugarMunch.TV.NoActionBar" parent="Theme.SugarMunch.TV">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- TV Preferences Theme -->
+    <style name="Theme.SugarMunch.TV.Preferences" parent="Theme.Leanback.Preferences">
+        <item name="colorPrimary">#FFB6C1</item>
+        <item name="colorAccent">#98FF98</item>
+        <item name="android:colorBackground">#1A1A1A</item>
+        <item name="android:windowBackground">#1A1A1A</item>
+    </style>
+
+    <!-- Custom Card Style -->
+    <style name="TvCardStyle" parent="Widget.Leanback.ImageCardView">
+        <item name="cardBackgroundColor">#2D2D2D</item>
+        <item name="cardCornerRadius">12dp</item>
+        <item name="cardElevation">8dp</item>
+    </style>
+
+    <!-- Focus Highlight Style -->
+    <style name="TvFocusHighlight">
+        <item name="android:background">@drawable/tv_focus_highlight</item>
+    </style>
+
+</resources>

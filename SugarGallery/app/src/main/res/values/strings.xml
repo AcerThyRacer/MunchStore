@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SugarGallery - String Resources -->
+<resources>
+    <string name="app_name">SugarGallery</string>
+    <string name="app_tagline">🍬 Candy-Themed Photo Gallery</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         MAIN SCREEN
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="all_media">All Media</string>
+    <string name="photos">Photos</string>
+    <string name="videos">Videos</string>
+    <string name="favorites">Favorites</string>
+    <string name="folders">Folders</string>
+    <string name="recent">Recent</string>
+    <string name="albums">Albums</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         THEME SELECTION
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="choose_sugar_theme">Choose Your Sugar Theme</string>
+    <string name="cotton_candy_collection">Cotton Candy Collection</string>
+    <string name="chocolate_collection">Chocolate Collection</string>
+    <string name="gummy_collection">Gummy Collection</string>
+    <string name="lollipop_collection">Lollipop Collection</string>
+    <string name="caramel_collection">Caramel Collection</string>
+    <string name="extreme_sugar_rush">Extreme Sugar Rush</string>
+    <string name="seasonal_special">Seasonal Special</string>
+    <string name="custom_themes">Custom Themes</string>
+    
+    <string name="theme_cotton_candy">Cotton Candy</string>
+    <string name="theme_dark_chocolate">Dark Chocolate</string>
+    <string name="theme_milk_chocolate">Milk Chocolate</string>
+    <string name="theme_white_chocolate">White Chocolate</string>
+    <string name="theme_ruby_chocolate">Ruby Chocolate</string>
+    <string name="theme_gummy_bear">Gummy Bear</string>
+    <string name="theme_gummy_worm">Gummy Worm</string>
+    <string name="theme_sour_gummy">Sour Gummy</string>
+    <string name="theme_lollipop_swirl">Lollipop Swirl</string>
+    <string name="theme_chupa_chups">Chupa Chups</string>
+    <string name="theme_rainbow_pop">Rainbow Pop</string>
+    <string name="theme_salted_caramel">Salted Caramel</string>
+    <string name="theme_caramel_delight">Caramel Delight</string>
+    <string name="theme_butterscotch">Butterscotch</string>
+    <string name="theme_nuclear_sugar">Nuclear Sugar</string>
+    <string name="theme_candy_overload">Candy Overload</string>
+    <string name="theme_skittles_storm">Skittles Storm</string>
+    <string name="theme_candy_cane">Candy Cane</string>
+    <string name="theme_peppermint">Peppermint</string>
+    <string name="theme_gingerbread">Gingerbread</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         SETTINGS
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="settings">Settings</string>
+    <string name="display_settings">Display Settings</string>
+    <string name="theme_settings">Theme Settings</string>
+    <string name="animation_settings">Animation Settings</string>
+    <string name="privacy_settings">Privacy Settings</string>
+    <string name="recycle_bin_settings">Recycle Bin Settings</string>
+    <string name="editor_settings">Editor Settings</string>
+    <string name="misc_settings">Misc Settings</string>
+    
+    <!-- Display Settings -->
+    <string name="column_count">Grid Column Count</string>
+    <string name="show_media_details">Show Media Details</string>
+    <string name="thumbnail_quality">Thumbnail Quality</string>
+    <string name="font_size">Font Size</string>
+    
+    <!-- Theme Settings -->
+    <string name="sugar_theme">Sugar Theme</string>
+    <string name="candy_mode">Candy Mode</string>
+    <string name="sugar_intensity">Sugar Intensity</string>
+    <string name="sugar_intensity_description">Adjust the intensity of candy effects (0.0–2.0)</string>
+    
+    <!-- Animation Settings -->
+    <string name="enable_animations">Enable Animations</string>
+    <string name="animation_speed">Animation Speed</string>
+    <string name="particle_effects">Particle Effects</string>
+    <string name="candy_animations">Candy Animations</string>
+    
+    <!-- Privacy Settings -->
+    <string name="app_lock">App Lock</string>
+    <string name="lock_type">Lock Type</string>
+    <string name="hidden_folders">Hidden Folders</string>
+    <string name="hide_media">Hide Media</string>
+    <string name="excluded_folders">Excluded Folders</string>
+    
+    <!-- Recycle Bin Settings -->
+    <string name="enable_recycle_bin">Enable Recycle Bin</string>
+    <string name="recycle_bin_days">Keep Deleted Items For</string>
+    <string name="days_format">%d days</string>
+    <string name="clear_recycle_bin">Clear Recycle Bin</string>
+    
+    <!-- Editor Settings -->
+    <string name="default_filter">Default Filter</string>
+    <string name="auto_save_edits">Auto-Save Edits</string>
+    <string name="edit_quality">Edit Quality</string>
+    <string name="strip_exif">Strip EXIF Metadata</string>
+    
+    <!-- Misc Settings -->
+    <string name="first_launch">First Launch</string>
+    <string name="haptic_feedback">Haptic Feedback</string>
+    <string name="language">Language</string>
+    <string name="about">About</string>
+    <string name="version">Version</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         MEDIA EDITING
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="edit_photo">Edit Photo</string>
+    <string name="crop">Crop</string>
+    <string name="rotate">Rotate</string>
+    <string name="flip">Flip</string>
+    <string name="filters">Filters</string>
+    <string name="adjust">Adjust</string>
+    <string name="draw">Draw</string>
+    <string name="text">Text</string>
+    <string name="stickers">Stickers</string>
+    <string name="blur">Blur</string>
+    <string name="sharpen">Sharpen</string>
+    <string name="brightness">Brightness</string>
+    <string name="contrast">Contrast</string>
+    <string name="saturation">Saturation</string>
+    <string name="warmth">Warmth</string>
+    <string name="apply_candy_filter">Apply Candy Filter</string>
+    
+    <!-- Filter Names -->
+    <string name="filter_none">None</string>
+    <string name="filter_cotton_candy">Cotton Candy</string>
+    <string name="filter_chocolate">Chocolate</string>
+    <string name="filter_gummy">Gummy</string>
+    <string name="filter_lollipop">Lollipop</string>
+    <string name="filter_caramel">Caramel</string>
+    <string name="filter_rainbow">Rainbow</string>
+    <string name="filter_sparkle">Sparkle</string>
+    <string name="filter_glow">Glow</string>
+    <string name="filter_vintage">Vintage</string>
+    <string name="filter_bw">Black &amp; White</string>
+    <string name="filter_sepia">Sepia</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         MEDIA OPERATIONS
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="favorite">Favorite</string>
+    <string name="unfavorite">Remove from Favorites</string>
+    <string name="hide">Hide</string>
+    <string name="unhide">Unhide</string>
+    <string name="move_to">Move to…</string>
+    <string name="copy_to">Copy to…</string>
+    <string name="rename">Rename</string>
+    <string name="details">Details</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="restore">Restore</string>
+    <string name="permanently_delete">Permanently Delete</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         DIALOGS
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="confirm_delete">Confirm Delete</string>
+    <string name="confirm_delete_message">Are you sure you want to delete %d item(s)?</string>
+    <string name="confirm_permanent_delete">Permanently Delete?</string>
+    <string name="confirm_permanent_delete_message">This action cannot be undone. Are you sure?</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    
+    <string name="create_album">Create Album</string>
+    <string name="album_name">Album Name</string>
+    <string name="enter_album_name">Enter album name</string>
+    
+    <string name="rename_file">Rename File</string>
+    <string name="new_file_name">New File Name</string>
+    
+    <string name="set_as_wallpaper">Set as Wallpaper</string>
+    <string name="wallpaper_applied">Wallpaper applied successfully</string>
+    <string name="wallpaper_failed">Failed to set wallpaper</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         MESSAGES
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="no_media_found">No media found</string>
+    <string name="no_media_description">Photos and videos will appear here</string>
+    <string name="loading_media">Loading media…</string>
+    <string name="item_deleted">Item deleted</string>
+    <string name="undo">Undo</string>
+    <string name="items_restored">Items restored</string>
+    <string name="recycle_bin_cleared">Recycle bin cleared</string>
+    <string name="album_created">Album created</string>
+    <string name="album_deleted">Album deleted</string>
+    <string name="file_renamed">File renamed</string>
+    <string name="theme_applied">Theme applied: %s</string>
+    <string name="candy_mode_enabled">Candy Mode enabled! 🍬</string>
+    <string name="candy_mode_disabled">Candy Mode disabled</string>
+    <string name="sugar_intensity_changed">Sugar Intensity: %.1fx</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         PERMISSIONS
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="permission_required">Permission Required</string>
+    <string name="permission_storage_rationale">SugarGallery needs storage access to view your photos and videos</string>
+    <string name="permission_camera_rationale">SugarGallery needs camera access to take photos</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="go_to_settings">Go to Settings</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         ABOUT
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="about_title">About SugarGallery</string>
+    <string name="about_description">A candy-themed photo and video gallery app with extreme customization options</string>
+    <string name="about_version">Version %s</string>
+    <string name="about_credits">Made with 🍬 and ❤️</string>
+    <string name="about_license">Licensed under GPL-3.0</string>
+    <string name="about_source">Source Code</string>
+    <string name="about_privacy">Privacy Policy</string>
+    
+    <!-- ═════════════════════════════════════════════════════════════════
+         ACCESSIBILITY
+         ═════════════════════════════════════════════════════════════════ -->
+    
+    <string name="cd_open_navigation_drawer">Open navigation drawer</string>
+    <string name="cd_close_navigation_drawer">Close navigation drawer</string>
+    <string name="cd_photo_thumbnail">Photo thumbnail</string>
+    <string name="cd_video_thumbnail">Video thumbnail</string>
+    <string name="cd_play_video">Play video</string>
+    <string name="cd_pause_video">Pause video</string>
+    <string name="cd_favorite">Favorite</string>
+    <string name="cd_more_options">More options</string>
+    <string name="cd_add">Add</string>
+    <string name="cd_delete">Delete</string>
+    <string name="cd_share">Share</string>
+    <string name="cd_edit">Edit</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_filter">Filter</string>
+    <string name="cd_sort">Sort</string>
+</resources>

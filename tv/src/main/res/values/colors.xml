@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Candy Colors -->
+    <color name="candy_pink">#FFB6C1</color>
+    <color name="candy_mint">#98FF98</color>
+    <color name="candy_yellow">#FFFFACD</color>
+    <color name="candy_caramel">#DEB887</color>
+    <color name="cotton_candy_blue">#B5DEFF</color>
+    <color name="candy_purple">#E6B3FF</color>
+    
+    <!-- Surface Colors -->
+    <color name="sugar_white">#FFFFBF7</color>
+    <color name="sugar_dark">#FF2D1B2E</color>
+    <color name="surface_light">#FFFFF8F0</color>
+    <color name="surface_dark">#FF3D2C3E</color>
+    
+    <!-- Text Colors -->
+    <color name="text_on_light">#FF1A1A1A</color>
+    <color name="text_on_dark">#FFF5F5F5</color>
+    
+    <!-- TV-specific -->
+    <color name="tv_background">#FF1A1A1A</color>
+    <color name="tv_surface">#FF2D2D2D</color>
+    <color name="tv_primary">#FFB6C1</color>
+    <color name="tv_accent">#98FF98</color>
+    <color name="tv_focus_highlight">#FFB6C1</color>
+</resources>

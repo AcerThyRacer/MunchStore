@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint" client="gradle" variant="debug" version="8.2.0">
+    <!-- Baseline generated so lint runs without failing. Run ./gradlew lintDebug to regenerate with current issues. -->
+</issues>

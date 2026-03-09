@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- SugarMunch Brand Colors -->
+    <color name="sugar_pink">#FFFFB6C1</color>
+    <color name="sugar_pink_bright">#FFFF1493</color>
+    <color name="sugar_mint">#FF98FF98</color>
+    <color name="sugar_lemon">#FFFFFACD</color>
+    <color name="sugar_blue">#FFB5DEFF</color>
+    <color name="sugar_coral">#FFFF6B6B</color>
+    <color name="sugar_purple">#FFE8C5FF</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="dark_background">#FF000000</color>
+    <color name="dark_surface">#FF1A1A1A</color>
+    <color name="dark_surface_variant">#FF2D2D2D</color>
+    
+    <!-- Accent Colors -->
+    <color name="accent_primary">#FFFF1493</color>
+    <color name="accent_secondary">#FF00CED1</color>
+    <color name="accent_tertiary">#FFFFD700</color>
+    
+    <!-- Complication Colors -->
+    <color name="complication_background">#FF1A1A1A</color>
+    <color name="complication_text">#FFFFFFFF</color>
+    <color name="complication_accent">#FFFF1493</color>
+</resources>

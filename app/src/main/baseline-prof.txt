@@ -1,0 +1,76 @@
+# Baseline Profiles for SugarMunch
+# Improves app startup time by pre-compiling critical paths
+
+HSPLcom/sugarmunch/app/MainActivity;->onCreate(Landroid/os/Bundle;)V
+HSPLcom/sugarmunch/app/SugarMunchApplication;->onCreate()V
+HSPLcom/sugarmunch/app/ui/navigation/SugarMunchNavHost;-><init>(Landroidx/navigation/NavHostController;)V
+HSPLcom/sugarmunch/app/ui/screens/CatalogScreen;-><init>()V
+HSPLcom/sugarmunch/app/ui/theme/SugarMunchTheme;-><init>()V
+HSPLcom/sugarmunch/app/data/ManifestRepository;-><init>(Landroid/content/Context;Ljava/lang/String;Lokhttp3/OkHttpClient;)V
+HSPLcom/sugarmunch/app/download/SmartDownloadManager;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/features/AchievementManager;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/theme/engine/ThemeManager;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/effects/v2/engine/EffectEngineV2;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/shop/ShopManager;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/rewards/DailyRewardsManager;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/social/repository/SocialRepository;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/ai/SmartRecommendationEngine;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/ai/MoodDetector;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/backup/CloudBackupManager;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/ui/components/ErrorBoundary;-><init>()V
+HSPLcom/sugarmunch/app/util/CoroutineUtils;-><init>()V
+HSPLcom/sugarmunch/app/crash/CrashReportingManager;-><init>(Landroid/content/Context;)V
+HSPLcom/sugarmunch/app/crash/GlobalExceptionHandler;-><init>(Landroid/content/Context;Ljava/lang/Thread$UncaughtExceptionHandler;)V
+
+# Compose Runtime
+HSPLandroidx/compose/runtime/ComposerKt;-><init>()V
+HSPLandroidx/compose/runtime/Composer;-><init>()V
+HSPLandroidx/compose/runtime/Recomposer;-><init>()V
+HSPLandroidx/compose/ui/platform/AndroidComposeView;-><init>(Landroid/content/Context;)V
+
+# Navigation
+HSPLandroidx/navigation/NavHostController;-><init>(Landroid/content/Context;)V
+HSPLandroidx/navigation/compose/NavHost;-><init>(Landroidx/navigation/NavHostController;Ljava/lang/String;Lkotlin/jvm/functions/Function1;)V
+
+# Material 3
+HSPLandroidx/compose/material3/MaterialTheme;-><init>(JLandroidx/compose/runtime/Composer;I)V
+HSPLandroidx/compose/material3/Scaffold;-><init>(JLandroidx/compose/ui/Modifier;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function0;Lkotlin/jvm/functions/Function1;Landroidx/compose/runtime/Composer;II)V
+
+# Hilt
+HSPLdagger/hilt/android/internal/managers/ComponentSupplier;-><init>()V
+HSPLcom/sugarmunch/app/HiltSugarMunchApplication;-><init>()V
+HSPLcom/sugarmunch/app/HiltMainActivity;-><init>()V
+
+# Room
+HSPLandroidx/room/RoomDatabase;-><init>()V
+HSPLcom/sugarmunch/app/data/local/AppDatabase;-><init>()V
+
+# DataStore
+HSPLandroidx/datastore/core/DataStore;-><init>()V
+HSPLandroidx/datastore/preferences/core/PreferencesKt;-><init>()V
+
+# Coroutines
+HSPLkotlinx/coroutines/CoroutineScope;-><init>()V
+HSPLkotlinx/coroutines/Dispatchers;-><init>()V
+
+# Flow
+HSPLkotlinx/coroutines/flow/StateFlow;-><init>()V
+HSPLkotlinx/coroutines/flow/MutableStateFlow;-><init>(Ljava/lang/Object;)V
+
+# OkHttp
+HSPLokhttp3/OkHttpClient;-><init>()V
+HSPLokhttp3/Request;-><init>()V
+
+# Retrofit
+HSPLretrofit2/Retrofit;-><init>()V
+HSPLretrofit2/Converter;-><init>()V
+
+# Coil
+HSPLcoil/ImageLoader;-><init>()V
+HSPLcoil/Compose/AsyncImage;-><init>()V
+
+# Lottie
+HSPLcom/airbnb/lottie/compose/LottieAnimation;-><init>()V
+
+# Konfetti
+HSPLnl/dionsegijn/konfetti/compose/KonfettiView;-><init>()V

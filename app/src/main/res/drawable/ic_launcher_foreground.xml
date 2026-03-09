@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Candy wrapper left -->
+    <path
+        android:pathData="M30,54 L22,46 L22,62 Z"
+        android:fillColor="#FFE4E1"/>
+    
+    <!-- Candy wrapper right -->
+    <path
+        android:pathData="M78,54 L86,46 L86,62 Z"
+        android:fillColor="#FFE4E1"/>
+    
+    <!-- Main candy circle -->
+    <path
+        android:pathData="M54,30 a24,24 0 1,0 0,48 a24,24 0 1,0 0,-48"
+        android:fillColor="#FFB6C1"/>
+    
+    <!-- Candy stripe 1 -->
+    <path
+        android:pathData="M42,38 Q54,54 42,70"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.6"
+        android:fillColor="@null"/>
+    
+    <!-- Candy stripe 2 -->
+    <path
+        android:pathData="M54,34 Q66,54 54,74"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.6"
+        android:fillColor="@null"/>
+    
+    <!-- Candy stripe 3 -->
+    <path
+        android:pathData="M66,38 Q54,54 66,70"
+        android:strokeWidth="6"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.6"
+        android:fillColor="@null"/>
+    
+    <!-- Shine effect -->
+    <path
+        android:pathData="M44,42 a6,6 0 1,0 0,12 a6,6 0 1,0 0,-12"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.4"/>
+</vector>
