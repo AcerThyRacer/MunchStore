@@ -497,43 +497,45 @@ object SpecialEffectsCatalog {
     // ALL EFFECTS LIST
     // ═════════════════════════════════════════════════════════════════
     
-    val ALL_EFFECTS = listOf(
-        // Particles
-        CANDY_CONFETTI,
-        FLOATING_CANDIES,
-        GLITTER_SPARKLE,
-        HEART_BUBBLES,
-        STAR_BURST,
-        
-        // Trails
-        RAINBOW_TRAIL,
-        CANDY_CRUMBS,
-        NEON_TRAIL,
-        
-        // Overlays
-        SUGAR_RUSH,
-        COTTON_CANDY_CLOUDS,
-        VIGNETTE_GLOW,
-        
-        // Bursts
-        FIREWORKS,
-        LOLLIPOP_BURST,
-        GUMMY_EXPLOSION,
-        
-        // Reactive
-        MUSIC_REACTIVE,
-        RIPPLE_TOUCH,
-        BEAT_PULSE,
-        
-        // Ambient/Seasonal
-        SNOW_GLOBE,
-        CHERRY_BLOSSOMS,
-        GOLDEN_HOUR
-    )
-    
-    val FREE_EFFECTS = ALL_EFFECTS.filter { !it.isPremium }
-    val PREMIUM_EFFECTS = ALL_EFFECTS.filter { it.isPremium }
-    
+    val ALL_EFFECTS: List<SpecialEffect> by lazy {
+        listOf(
+            // Original Particles
+            CANDY_CONFETTI,
+            FLOATING_CANDIES,
+            GLITTER_SPARKLE,
+            HEART_BUBBLES,
+            STAR_BURST,
+
+            // Original Trails
+            RAINBOW_TRAIL,
+            CANDY_CRUMBS,
+            NEON_TRAIL,
+
+            // Original Overlays
+            SUGAR_RUSH,
+            COTTON_CANDY_CLOUDS,
+            VIGNETTE_GLOW,
+
+            // Original Bursts
+            FIREWORKS,
+            LOLLIPOP_BURST,
+            GUMMY_EXPLOSION,
+
+            // Original Reactive
+            MUSIC_REACTIVE,
+            RIPPLE_TOUCH,
+            BEAT_PULSE,
+
+            // Original Ambient/Seasonal
+            SNOW_GLOBE,
+            CHERRY_BLOSSOMS,
+            GOLDEN_HOUR
+        ) + MoreSpecialEffects.ALL_NEW_EFFECTS
+    }
+
+    val FREE_EFFECTS: List<SpecialEffect> get() = ALL_EFFECTS.filter { !it.isPremium }
+    val PREMIUM_EFFECTS: List<SpecialEffect> get() = ALL_EFFECTS.filter { it.isPremium }
+
     fun getById(id: String): SpecialEffect? = ALL_EFFECTS.find { it.id == id }
     fun getByCategory(category: EffectCategory) = ALL_EFFECTS.filter { it.category == category }
     fun getRandom() = ALL_EFFECTS.random()
